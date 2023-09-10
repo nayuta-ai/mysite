@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on My Engineer Blog</title><link>https://nayuta-ai.github.io/mysite/blog/</link><description>Recent content in Blogs on My Engineer Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 18:04:50 +0900</lastBuildDate><atom:link href="https://nayuta-ai.github.io/mysite/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://nayuta-ai.github.io/mysite/blog/container-runtime/intro/</link><pubDate>Sun, 10 Sep 2023 18:04:50 +0900</pubDate><guid>https://nayuta-ai.github.io/mysite/blog/container-runtime/intro/</guid><description>&lt;h2 id="what-is-this-article">What is this article&lt;/h2>
+&lt;p>Containerization has become a fundamental technology in modern software development and operations. While many are familiar with container orchestration platforms like Kubernetes and Docker, it&amp;rsquo;s equally important to understand the underlying low-level runtimes that power containers. This document describes the implementation of a low-level runtime for containers.&lt;/p>
+&lt;h2 id="abstraction">Abstraction&lt;/h2>
+&lt;h3 id="part1-low-level-container-runtime-architecture">Part1 (low level container runtime architecture)&lt;/h3>
+&lt;p>A low-level runtime for containers is the core component responsible for managing the lifecycle of containers. It handles container creation, execution, and monitoring. Low-level runtimes interface directly with the kernel and are the foundation upon which higher-level container platforms are built. Low-level runtime for containers consists of three main linux components, such as Mount, Unshare, Cgroup and also some architecture such as IPC(Inter-Process Communication), Capabilities, RLimit, and etc.&lt;/p>
+&lt;h3 id="part2-ipc">Part2 (IPC)&lt;/h3>
+&lt;p>IPC (Inter-Process Communication) for containers refers to the mechanism by which processes running inside a container can communicate with each other or with processes outside the container. IPC is a fundamental concept in operating systems that allows processes to share data, signals, and synchronization primitives. In the context of containers, IPC is used to manage interactions between processes running within the same container or across different containers.&lt;/p>
+&lt;h3 id="part3-mount">Part3 (Mount)&lt;/h3>
+&lt;p>In the context of containers, &amp;ldquo;mount&amp;rdquo; refers to the process of attaching a filesystem or directory from the host system or another source into the container&amp;rsquo;s filesystem. This allows the containerized application to access and manipulate files and directories located outside of the container environment. Container filesystems are typically isolated from the host system for security and portability reasons, but mounting allows controlled access to specific resources.&lt;/p>
+&lt;h3 id="part4-oci">Part4 (OCI)&lt;/h3>
+&lt;p>OCI (Open Container Initiative) runtime, also known as the OCI runtime specification, is a standardized interface that defines how container runtimes interact with container images and the host operating system. The OCI runtime specification aims to provide a common, vendor-neutral API for launching and managing containers, allowing container images to be compatible across different container runtimes.&lt;/p>
+&lt;h3 id="part5-cgroup">Part5 (Cgroup)&lt;/h3>
+&lt;p>Control Groups, or cgroups for short, are a Linux kernel feature that allows you to control and manage the resource usage (such as CPU, memory, and I/O) of processes and groups of processes. Cgroups are particularly important in the context of containerization because they enable fine-grained resource isolation and allocation for containers.&lt;/p>
+&lt;h2 id="environment-and-version">Environment and version&lt;/h2>
+&lt;ul>
+&lt;li>OS: Mac, Linux&lt;/li>
+&lt;li>rust, docker&lt;/li>
+&lt;/ul>
+&lt;h2 id="targets">Targets&lt;/h2>
+&lt;ul>
+&lt;li>Those who is interested in System Programming, Container Technology and Rust&lt;/li>
+&lt;li>Those who want to commit to OCI and other OSS.&lt;/li>
+&lt;/ul></description></item></channel></rss>
