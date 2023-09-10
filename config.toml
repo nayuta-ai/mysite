@@ -5,9 +5,9 @@ theme = "hugo-theme-stack"
 
 [menu]
 [[menu.main]]
-# identifier = "posts"
-# name = "posts"
-# url = "/posts/"
+identifier = "posts"
+name = "posts"
+url = "/posts/"
 
 [[menu.social]]
 identifier = "github"
