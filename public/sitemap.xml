@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nayuta-ai.github.io/mysite/categories/</loc>
+    <loc>https://nayuta-ai.github.io/mysite/blog/</loc>
+    <lastmod>2023-09-10T18:04:50+09:00</lastmod>
   </url><url>
-    <loc>https://nayuta-ai.github.io/mysite/posts/hello-world/</loc>
+    <loc>https://nayuta-ai.github.io/mysite/blog/container-runtime/intro/</loc>
+    <lastmod>2023-09-10T18:04:50+09:00</lastmod>
   </url><url>
     <loc>https://nayuta-ai.github.io/mysite/</loc>
+    <lastmod>2023-09-10T18:04:50+09:00</lastmod>
   </url><url>
-    <loc>https://nayuta-ai.github.io/mysite/posts/</loc>
+    <loc>https://nayuta-ai.github.io/mysite/categories/</loc>
   </url><url>
     <loc>https://nayuta-ai.github.io/mysite/tags/</loc>
   </url>

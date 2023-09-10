@@ -5,9 +5,17 @@ theme = "hugo-theme-stack"
 
 [menu]
 [[menu.main]]
+identifier = "home"
+name = "home"
+url = "/"
+[[menu.main]]
 identifier = "posts"
 name = "posts"
-url = "/mysite/posts/"
+url = "/posts/"
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+url = "/blog/"
 
 [[menu.social]]
 identifier = "github"

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>My Engineer Blog</title>
-        <link>https://nayuta-ai.github.io/mysite/</link>
-        <description>Recent content on My Engineer Blog</description>
+        <title>Blogs on My Engineer Blog</title>
+        <link>https://nayuta-ai.github.io/mysite/blog/</link>
+        <description>Recent content in Blogs on My Engineer Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Sep 2023 18:04:50 +0900</lastBuildDate><atom:link href="https://nayuta-ai.github.io/mysite/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Sep 2023 18:04:50 +0900</lastBuildDate><atom:link href="https://nayuta-ai.github.io/mysite/blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Intro</title>
         <link>https://nayuta-ai.github.io/mysite/blog/container-runtime/intro/</link>
         <pubDate>Sun, 10 Sep 2023 18:04:50 +0900</pubDate>
