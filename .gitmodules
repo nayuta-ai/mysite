@@ -1,0 +1,12 @@
+[submodule "themes/hugo_theme_robust"]
+	path = themes/hugo_theme_robust
+	url = https://github.com/dim0627/hugo_theme_robust.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack.git
