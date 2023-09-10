@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = "https://nayuta-ai.github.io/mysite/"
 languageCode = 'en-us'
 title = 'My Engineer Blog'
 theme = "hugo-theme-stack"
