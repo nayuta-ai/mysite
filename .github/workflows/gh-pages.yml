@@ -29,5 +29,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           personal_token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
-          external_repository: nayuta-ai/mysite.github.io
+          external_repository: nayuta-ai/mysite
           publish_dir: ./public
